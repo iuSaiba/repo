@@ -1,0 +1,264 @@
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
+
+/* General css */
+body{
+	font-family: 'poppins', sans-serif;
+	background-color: #fff;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 900px;
+	font-size: 70px;
+	padding-bottom: 30px;
+}
+/* Header Area */
+.str-header{
+	background-color: #f6f9f9;
+	padding: 20px 0;
+}
+.str-header-item{
+	position: relative;
+	margin-bottom: 30px;
+}
+.str-header-overlay{
+	background-color: rgba(21, 164, 250, .5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+	opacity: .2;
+}
+.str-header a{
+	padding: 10px 20px;
+	display: block;
+	color: #454444;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	transition: .5s;
+}
+.str-header a:hover{
+	color: #55D1E5;
+}
+/* Bannar Area */
+.str-bannar{
+	background-image: url(image/web-design.jpg);
+	background-repeat: no-repeat;
+	color:#000;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 150px 0 65px ;
+	
+}
+
+.str-bannar-text{}
+.str-bannar-text p{
+	font-size: 20px;
+	color: #fff;
+	border-top: 1px solid #15a4fa;
+	display: inline-block;
+	padding: 30px;
+	font-family: 'poppins', sans-serif;
+}
+.str-bannar-button i{
+	color: #000;
+	display: block;
+	padding-top: 50px;
+}
+.str-bannar-button a{
+	color: #fff;
+	border: 1px solid #15a4fa;
+	transition: .7s;
+	padding: 10px 25px;
+	color: #fff;
+	border-width: 2px;
+	border-color: #fff;
+	border-radius: 5px;
+}
+.str-bannar-button a:hover{
+	background-color: #ffffff;
+	color: #000;
+}
+/*about section */
+.str-about{
+	padding: 80px 0px;
+	background-color: #f6f9f9;
+}
+.str-about-text, .str-about h2{
+	justify-content: center;
+	text-align: center;
+}
+.str-about-text p{
+	font-size: 20px;
+}
+
+  //* service section *//
+
+  .str-service{
+  	padding: 80px 0; 
+  }
+  .str-service-item{
+  	width: 80%;
+  	margin: 0 auto;
+  }
+.str-ser-icon{
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.str-ser-icon i{
+	color: #fff;
+	font-size: 35px;
+}
+.str-ser-text{
+	justify-content: center;
+	text-align: center;
+}
+
+
+/* work section*/
+.str-works{
+	background-color:  #f6f9f9;
+	padding: 80px 0;
+}
+.str-works h2,p{
+	text-align: center;
+}
+.str-works-item{
+	position: relative;
+	margin-bottom: 30px;
+}
+.str-works-overlay{
+	background-color: rgba(21, 164, 250, .5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+	opacity: 0;
+}
+.str-works-overlay a{
+	color: #fff;
+}
+.str-works-item:hover .str-works-overlay{
+	opacity: 1;
+}
+
+/* contact section*/
+.str-contact{
+	background: url(image/internet-315132_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.str-contact-overlay{
+	background-color: rgba(45, 57, 80, .7);
+	padding: 80px 0;
+}
+.str-contact .str-sec-title h2{
+	color: #fff;
+	text-align: center;
+}
+.str-contact .str-sec-title p{
+	color: #fff;
+	text-align: center;		
+}
+.str-contact .form-group input,
+.str-contact .form-group textarea{
+	background-color: transparent;
+	border-color: #999999;
+}
+.str-form-bottom{
+	display: flex;
+	justify-content: space-between;
+}
+.str-fb-left label{
+	color: #fff;
+	margin-left: 5px;
+}
+.str-fb-right input{
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	color: #ddd;
+	padding: 3px 25px;
+	transition: .3s;
+}
+.str-fb-right input:hover{
+	background: #15a4fa;
+}
+/*footer area*/
+.str-footer{
+	background: #f6f9f9;
+	padding: 20px; 0;
+}
+.str-copyright p{
+	margin-bottom: 0;
+}
+.str-social-icon{
+	display: flex;
+	justify-content: flex-end;
+}
+.str-social-icon ul li{
+	width: 30px;
+	height: 30px;
+	background-color: #15a4fa;
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.str-social-icon ul li a{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
